@@ -1,41 +1,31 @@
-# Digitalflow-intern
+# Iraitech-Assessment
 
+### Project and environment setup
 
+```bash
+# Setup environment
 
-## Project and environment setup
+# Clone repository
+https://github.com/nivaskambhampati1998/Iraitech-Assessment.git
 
-## install react-scripts
-npm install react-scripts
+# install nodemon globally for restarting the server every time automatically instead of entering in terminal after changes
+npm install -g nodemon
 
-## react router
-npm install react-router-dom
+# Goto server folder
+cd backend
 
-## install bootstrap
-npm install bootstrap
-
-## install express
-npm install express
-
-## mongoose
-npm install mongoose
-
-## body-parser
-npm install body-parser
-
-## cors
-npm install cors
-
-## install axios
-npm install axios
-
-## install the node dependencies
+# node modules for backend
 npm install
 
-## install bcrypt
-npm install bcryptjs
-
-## install jwt
-nppm install jsonwebtoken
-
-## start the development server
+# start the server
 npm start
+
+# Goto frontend folder
+cd frontend
+
+# For the frontend in another terminal node modules for frontend
+npm install
+
+# start the client
+npm start
+```
